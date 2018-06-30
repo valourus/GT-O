@@ -41,12 +41,12 @@ public class PlayerMovement : NetworkBehaviour
 	
 	private void OnCollisionEnter(Collision other)
 	{
+
 		if(other.gameObject.tag.Equals("ground"))
 			isOnGround = true;
 		else
 		{
-			Debug.Log("collosiondfieidsofj");
-			other.gameObject.GetComponent<Rigidbody>().AddExplosionForce(1500,( other.transform.position - transform.position )* 0.5F, 300, 300f);
+			//trigger a explotion that is synced on the network... 
 		}
 	}
 }

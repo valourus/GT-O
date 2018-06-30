@@ -24,8 +24,10 @@ GameObject:
   - component: {fileID: 135138807689801196}
   - component: {fileID: 114763280634457222}
   - component: {fileID: 114329210247072578}
-  - component: {fileID: 114960914884359366}
   - component: {fileID: 54560272520600522}
+  - component: {fileID: 114643347027743772}
+  - component: {fileID: 114628225976118088}
+  - component: {fileID: 114974390121134260}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -114,6 +116,194 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448c681fb79e43bd9fa9983b9a8b4c82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114628225976118088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1370740032469434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6587c27fd07824eb346469eb351e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nst: {fileID: 114643347027743772}
+  na: {fileID: 0}
+  cachedGameObject: {fileID: 0}
+  cachedTransform: {fileID: 0}
+  frameCount: 0
+  cache_elementIsEnabled: 
+--- !u!114 &114643347027743772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1370740032469434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdf5a6b1cc27d74cab63a5666d2960a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  na: {fileID: 114974390121134260}
+  _state: 2
+  ignoreStateUntil: 2
+  sendEveryXTick: 1
+  desiredBufferMS: 0.1
+  bufferDriftCorrectAmt: 0.1
+  autoKinematic: 1
+  allowOfftick: 1
+  sendOnEvent: 30
+  includedAxes: 7
+  keyEvery: 5
+  extrapolation: 0.5
+  extrapolationDivisor: 0
+  maxExtrapolates: 2
+  teleportThreshold: 2
+  bitCullingLevel: 0
+  sequentialKeys: 5
+  rootRotationElement:
+    name: Root Rotation
+    isRoot: 1
+    crusher:
+      _trsType: 2
+      defaultTransform: {fileID: 0}
+      uniformAxes: 0
+      xcrusher:
+        showEnableToggle: 1
+        enabled: 1
+        accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 5.6833334
+        decoder: 0.17595308
+        actualMin: -90
+        actualMax: 90
+        masks: ff0300003f0000001f00000000000000
+        wrappoint: 180
+        range: 180
+        rotationMaxValue: 270
+        maxEncodedVal: 1023
+        centerValue: 0
+        centerEncodedValue: 511
+        _trsType: 2
+        _limitRange: 0
+        _useHalfRangeX: 1
+        _bitsDeterminedBy: 10
+        _bits: 0a000000060000000500000000000000
+        _min: -90
+        _max: 90
+        _resolution: 1023
+        _precision: 0.17595308
+        thresh: 00000000000000000000000000000000
+      ycrusher:
+        showEnableToggle: 1
+        enabled: 1
+        accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 11.375
+        decoder: 0.08791209
+        actualMin: -180
+        actualMax: 180
+        masks: ff0f0000ff0000003f00000000000000
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 4095
+        centerValue: 0
+        centerEncodedValue: 2047
+        _trsType: 2
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: 12
+        _bits: 0c000000080000000600000000000000
+        _min: -180
+        _max: 180
+        _resolution: 4095
+        _precision: 0.08791209
+        thresh: 00000000000000000000000000000000
+      zcrusher:
+        showEnableToggle: 1
+        enabled: 1
+        accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 2.8416667
+        decoder: 0.35190615
+        actualMin: -180
+        actualMax: 180
+        masks: ff0300003f0000001f00000000000000
+        wrappoint: 180
+        range: 360
+        rotationMaxValue: 180
+        maxEncodedVal: 1023
+        centerValue: 0
+        centerEncodedValue: 511
+        _trsType: 2
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: 10
+        _bits: 0a000000060000000500000000000000
+        _min: -180
+        _max: 180
+        _resolution: 1023
+        _precision: 0.35190615
+        thresh: 00000000000000000000000000000000
+      ucrusher:
+        showEnableToggle: 0
+        enabled: 1
+        accurateCenter: 0
+        outOfBoundsHandling: 1
+        encoder: 12.75
+        decoder: 0.078431375
+        actualMin: -10
+        actualMax: 10
+        masks: ff0000000f0000000f00000000000000
+        wrappoint: 180
+        range: 20
+        rotationMaxValue: 350
+        maxEncodedVal: 255
+        centerValue: 0
+        centerEncodedValue: 127
+        _trsType: 4
+        _limitRange: 0
+        _useHalfRangeX: 0
+        _bitsDeterminedBy: 8
+        _bits: 08000000040000000400000000000000
+        _min: -10
+        _max: 10
+        _resolution: 255
+        _precision: 0.078431375
+        thresh: 00000000000000000000000000000000
+      qcrusher:
+        bits: 64
+        _compressLevel: 64
+        transform: {fileID: 4245064273065382}
+        local: 0
+        isStandalone: 0
+        showEnableToggle: 1
+        enabled: 1
+      local: 0
+      enableTRSTypeSelector: 0
+    index: 0
+    drawerHeight: 188
+    nst: {fileID: 0}
+    na: {fileID: 0}
+    sendCullMask: 30
+    keyRate: 5
+    gameobject: {fileID: 0}
+    extrapolation: 0.5
+    maxExtrapolates: 2
+    teleportOverride: 1
+    rewindGO: {fileID: 0}
+    lastSentKeyTime: 0
+    snapshotFrameId: 0
+    targetFrameId: 0
+  debugXform: 0
+  destroyUnspawned: 1
+  rb: {fileID: 0}
+  cachedGameObject: {fileID: 0}
+  cachedTransform: {fileID: 0}
+  frameUpdateInterval: 0
+  invFrameUpdateInterval: 0
+  lastSentPos: {x: 0, y: 0, z: 0}
 --- !u!114 &114763280634457222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,7 +336,7 @@ MonoBehaviour:
     i15: 66
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114960914884359366
+--- !u!114 &114974390121134260
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -154,19 +344,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1370740032469434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Script: {fileID: 11500000, guid: eb9096e2401f90a4bb3d8914082cbea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TransformSyncMode: 3
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!135 &135138807689801196
 SphereCollider:
   m_ObjectHideFlags: 1

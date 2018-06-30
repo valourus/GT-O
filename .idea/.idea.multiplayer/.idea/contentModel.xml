@@ -3,8 +3,198 @@
   <component name="ContentModelStore">
     <e p="C:\Users\valourus\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_multiplayer.529569070.00" t="ExcludeRecursive" />
     <e p="C:\Users\valourus\Documents\multiplayer" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="emotitron" t="Include">
+          <e p="Compression" t="Include">
+            <e p="TransformCrusher" t="Include">
+              <e p="BitstreamExtensions.cs" t="Include" />
+              <e p="ElementCrusher.cs" t="Include" />
+              <e p="FloatCrushDrawer.cs" t="Include" />
+              <e p="QuatCrusher.cs" t="Include" />
+              <e p="SolidTextures.cs" t="Include" />
+              <e p="Structs" t="Include">
+                <e p="CompressedElement.cs" t="Include" />
+                <e p="CompressedMatrix.cs" t="Include" />
+                <e p="CompressedValue.cs" t="Include" />
+                <e p="Element.cs" t="Include" />
+                <e p="Matrix.cs" t="Include" />
+              </e>
+              <e p="TransformCrusher.cs" t="Include" />
+              <e p="TransformCrusherDrawer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="NST Core 5" t="Include">
+            <e p="Sample Scenes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Ball.cs" t="Include" />
+                <e p="Beam.cs" t="Include" />
+                <e p="ControllerNonRB.cs" t="Include" />
+                <e p="DebugText.cs" t="Include" />
+                <e p="FPSDisplay.cs" t="Include" />
+                <e p="Mover.cs" t="Include" />
+                <e p="Rotator.cs" t="Include" />
+                <e p="SpawnObject.cs" t="Include" />
+                <e p="Startup.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Compression" t="Include">
+                <e p="StructToByteArray.cs" t="Include" />
+                <e p="UdpKit" t="Include">
+                  <e p="UdpByteConverter.cs" t="Include" />
+                  <e p="UdpKit.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Controller" t="Include">
+                <e p="ControllerInputMap.cs" t="Include" />
+                <e p="MouseInputAxis.cs" t="Include" />
+              </e>
+              <e p="InputSystem" t="Include">
+                <e p="InputSelector.cs" t="Include" />
+                <e p="InputSelectorAxis.cs" t="Include" />
+                <e p="InputSelectorBase.cs" t="Include" />
+                <e p="InputSelectorKeyCode.cs" t="Include" />
+                <e p="InputSelectorKeys.cs" t="Include" />
+                <e p="InputSelectorTouchZone.cs" t="Include" />
+                <e p="InputSelectorUIZone.cs" t="Include" />
+                <e p="UIZone.cs" t="Include" />
+                <e p="UIZoneSelector.cs" t="Include" />
+              </e>
+              <e p="NST" t="Include">
+                <e p="BaseClasses" t="Include">
+                  <e p="NSTComponent.cs" t="Include" />
+                  <e p="NSTMasterBehaviour.cs" t="Include" />
+                  <e p="NSTRootSingleton.cs" t="Include" />
+                </e>
+                <e p="Editor" t="Include">
+                  <e p="AxisRangeEditor.cs" t="Include" />
+                  <e p="NetworkSyncTransformEditor.cs" t="Include" />
+                </e>
+                <e p="Elements" t="Include">
+                  <e p="CompressedElement.cs" t="Include" />
+                  <e p="IElements.cs" t="Include" />
+                  <e p="NSTElementComponent.cs" t="Include" />
+                  <e p="NSTElementsEngine.cs" t="Include" />
+                  <e p="RotationElement.cs" t="Include" />
+                  <e p="TransformElement.cs" t="Include" />
+                </e>
+                <e p="Enums" t="Include">
+                  <e p="IncludedAxisEnum.cs" t="Include" />
+                  <e p="NSTEnums.cs" t="Include" />
+                  <e p="SendCullMaskEnum.cs" t="Include" />
+                </e>
+                <e p="Frame.cs" t="Include" />
+                <e p="FrameBuffer.cs" t="Include" />
+                <e p="HealthSystem" t="Include">
+                  <e p="IMonitorVitals.cs" t="Include" />
+                  <e p="IVitals.cs" t="Include" />
+                  <e p="Vital.cs" t="Include" />
+                </e>
+                <e p="HitGroups" t="Include">
+                  <e p="HitGroupSelector.cs" t="Include" />
+                  <e p="NSTHitGroupAssign.cs" t="Include" />
+                  <e p="NSTHitGroupsSettings.cs" t="Include" />
+                </e>
+                <e p="Interfaces" t="Include">
+                  <e p="INSTCallbacks.cs" t="Include" />
+                  <e p="INSTSource.cs" t="Include" />
+                  <e p="IOfftick.cs" t="Include" />
+                </e>
+                <e p="MasterRTT.cs" t="Include" />
+                <e p="NetAdapter" t="Include">
+                  <e p="MasterNetAdapter.cs" t="Include" />
+                  <e p="MasterNetCommon.cs" t="Include" />
+                  <e p="NetAdapterInterfaces.cs" t="Include" />
+                  <e p="NetAdapterTools.cs" t="Include" />
+                  <e p="NSTNetAdapter.cs" t="Include" />
+                  <e p="PUN" t="Include">
+                    <e p="MasterNetAdapterPUN.txt" t="Include" />
+                    <e p="NSTNetAdapterPUN.txt" t="Include" />
+                  </e>
+                  <e p="PUNSampleLauncher.cs" t="Include" />
+                  <e p="UNET" t="Include">
+                    <e p="MasterNetAdapterUNET.txt" t="Include" />
+                    <e p="NSTNetAdapterUNET.txt" t="Include" />
+                    <e p="UnetExtensions.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="NetworkSyncTransform.cs" t="Include" />
+                <e p="NSTMapBounds.cs" t="Include" />
+                <e p="NSTMaster.cs" t="Include" />
+                <e p="NSTSettings.cs" t="Include" />
+                <e p="NSTTools.cs" t="Include" />
+                <e p="QuatCompress.cs" t="Include" />
+                <e p="Rewind" t="Include">
+                  <e p="IIncludeOnGhost.cs" t="Include" />
+                  <e p="IRewind.cs" t="Include" />
+                </e>
+                <e p="Sample" t="Include">
+                  <e p="NSTSampleController.cs" t="Include" />
+                  <e p="NSTSampleHealth.cs" t="Include" />
+                  <e p="NSTSampleHealthUI.cs" t="Include" />
+                  <e p="NSTSamplePlayer.cs" t="Include" />
+                  <e p="NSTSamplePlayerSpawn.cs" t="Include" />
+                  <e p="NSTSampleProjectile.cs" t="Include" />
+                  <e p="NSTSampleWeapon.cs" t="Include" />
+                </e>
+                <e p="Settings" t="Include">
+                  <e p="DebuggingSettings.cs" t="Include" />
+                  <e p="HeaderSettings.cs" t="Include" />
+                  <e p="HitGroupSettings.cs" t="Include" />
+                  <e p="NetLibrarySettings.cs" t="Include" />
+                  <e p="SettingsScriptableObject.cs" t="Include" />
+                  <e p="WorldCompressionSettings.cs" t="Include" />
+                </e>
+                <e p="Utility" t="Include">
+                  <e p="BandwidthUsage.cs" t="Include" />
+                  <e p="IntegrityCheck.cs" t="Include" />
+                </e>
+                <e p="Weapon" t="Include">
+                  <e p="INstProjectile.cs" t="Include" />
+                </e>
+                <e p="WorldVectorCompression.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="BitUtilities" t="Include">
+              <e p="BitTools.cs" t="Include" />
+            </e>
+            <e p="CollectBounds.cs" t="Include" />
+            <e p="CopyComponent.cs" t="Include" />
+            <e p="DebugWidget.cs" t="Include" />
+            <e p="DrawerUtils.cs" t="Include" />
+            <e p="FindAllObjectTypeInScene.cs" t="Include" />
+            <e p="GenericCast" t="Include">
+              <e p="GenericCast.cs" t="Include" />
+            </e>
+            <e p="GUITools" t="Include">
+              <e p="EditorUtils.cs" t="Include" />
+              <e p="EnumMaskAttribute.cs" t="Include" />
+              <e p="HelpAttribute.cs" t="Include" />
+              <e p="InspectorUtils.cs" t="Include" />
+              <e p="ScriptableObjectDrawer.cs" t="Include" />
+            </e>
+            <e p="LayerAndTagTools.cs" t="Include" />
+            <e p="Pooling" t="Include">
+              <e p="Pool.cs" t="Include" />
+            </e>
+            <e p="QuaternionUtils.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="SlimMath" t="Include">
+              <e p="Half.cs" t="Include" />
+              <e p="HalfUtilities.cs" t="Include" />
+            </e>
+            <e p="SmartVars" t="Include">
+              <e p="GenericX.cs" t="Include" />
+              <e p="SmartVars.cs" t="Include" />
+            </e>
+            <e p="StringTools.cs" t="Include" />
+            <e p="UniqueNamesList.cs" t="Include" />
+          </e>
+        </e>
         <e p="PlayerConnection.cs" t="Include" />
         <e p="PlayerMovement.cs" t="Include" />
       </e>
